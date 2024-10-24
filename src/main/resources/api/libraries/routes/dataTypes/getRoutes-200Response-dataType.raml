@@ -10,13 +10,21 @@ items:
     originLocation:
       type: object
       properties:  
+        locationCode:
+          type: string
+          required: true
+          example: "BEN-SG"
         locationDesc:
           type: string
           required: true
           example: "Beauna Vista Singapore"
     destinationLocation:
       type: object
-      properties: 
+      properties:
+        locationCode:
+          type: string
+          required: true
+          example: "KLG-MY" 
         locationDesc:
           type: string
           required: true
