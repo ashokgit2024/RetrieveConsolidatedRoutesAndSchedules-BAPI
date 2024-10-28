@@ -65,7 +65,7 @@ attributes.queryParams.destinationLocation]]></ee:set-variable>
     <flow name="get:\booking\(transportType)\schedules:retrieveconsolidatedroutesandschedulesxpapi-config">
     <flow-ref doc:name="Flow Reference" doc:id="0081e068-5815-43cd-afc3-4774898acac0" name="retrieveconsolidatedroutesandschedulesxpapiSub_Flow"/>
 		<logger level="INFO" doc:name="Logger" doc:id="f831d852-df8c-41ea-b962-1ddc1a1dda57" message="Request Recieved for Schedules BAPI For TransactionId: #[vars.transactionId]"/>
-		<flow-ref doc:name="Flow Reference" doc:id="ac9831eb-2b02-4d8e-92e9-6b823a9c02ff" name="travelontip-sapi-implementationSub_Flow"/>
+		<flow-ref doc:name="Flow Reference" doc:id="ac9831eb-2b02-4d8e-92e9-6b823a9c02ff" name="fastgo-sapi-implementationSub_Flow2"/>
 		<logger level="INFO" doc:name="Logger" doc:id="eabf8d50-75d2-4efc-8567-cf430e540b83" message="Response Sent for Schedules BAPI For TransactionId: #[vars.transactionId]"/>
 		
     </flow>
